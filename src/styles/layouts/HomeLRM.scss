@@ -1,0 +1,37 @@
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, rgba(72, 70, 70, 0), rgb(86, 197, 177));
+    &--div {
+        margin-right: 50%;
+    &__img{
+        display: block;
+        width: 100%;
+        height: auto;
+        }
+    }
+    &--article{
+            position: absolute;
+            right: 300px;
+            top: 350px;
+        &__greet{
+            font-size: 22px;
+            text-align: end;
+            margin-bottom: 10px;
+        }
+        &__name{
+            font-size: 40px;
+            text-align: end;
+            margin-bottom: 10px;
+        }
+        &__career{
+            font-size: 35px;
+            text-align: end;
+            margin-bottom: 10px;
+        }
+    }
+}
+
