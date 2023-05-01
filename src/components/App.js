@@ -2,7 +2,8 @@ import { Route, Routes } from "react-router-dom";
 import Header from "./Header";
 import HomeLRM from "./HomeLRM";
 import AboutMe from "./AboutMe";
-import PortfolioList from "./PortfolioList";
+import projectListData from "../data/projects.json";
+import ProjectList from "./ProjectList";
 import "../styles/App.scss";
 
 function App() {
@@ -13,7 +14,10 @@ function App() {
         <Routes>
           <Route path="/" element={<HomeLRM />} />
           <Route path="/aboutme" element={<AboutMe />} />
-          <Route path="/projects" element={<PortfolioList />} />
+          <Route
+            path="/projects"
+            element={<ProjectList projectListData={projectListData} />}
+          />
         </Routes>
       </main>
     </div>

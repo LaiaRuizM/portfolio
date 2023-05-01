@@ -1,0 +1,26 @@
+.projects {
+        min-height: 80vh;
+        width: 100%;
+        ::-webkit-scrollbar {
+            &-track {
+                background-color: transparent;
+            }
+            &-thumb {
+                background-color: aquamarine;
+                border-radius: 20px;
+                border: 6px solid transparent;
+                background-clip: content-box;
+            }
+        }
+    &--list{
+        max-height: calc(100vh - 132px);
+        padding: 50px;
+        margin-top: 132px;
+        overflow: scroll;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 250px));
+        justify-content: center;
+        justify-items: center;
+        gap: 30px 10px;
+    } 
+}
