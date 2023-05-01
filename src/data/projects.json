@@ -1,0 +1,196 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "name": "We run",
+    "type": "practice",
+    "tech": "CSS",
+    "languages": [
+      "HTML",
+      "CSS",
+      "SASS"
+    ],
+    "grupal": false,
+    "visible": true,
+    "repoUrl": "https://github.com/LaiaRuizM/we-run-given-design",
+    "webUrl": "https://laiaruizm.github.io/we-run-given-design/",
+    "img": "https://i.postimg.cc/CLW9nFKx/we-run-given-design.png",
+    "descriptionEn": "Website which consists of laying out a webpage replicating the Zeplin's given design."
+  },
+  {
+    "id": 2,
+    "priority": 2,
+    "name": "Desarrollalobas",
+    "type": "practice",
+    "tech": "CSS",
+    "languages": [
+      "HTML",
+      "CSS",
+      "SASS"
+    ],
+    "grupal": true,
+    "visible": true,
+    "repoUrl": "https://github.com/LaiaRuizM/desarrollalobas-project",
+    "webUrl": "https://laiaruizm.github.io/desarrollalobas-project/",
+    "img": "https://i.postimg.cc/PqSFQZHT/desarrollalobas-project.png",
+    "descriptionEn": "Website which consisted of developing a responsive website that served as a presentation for our group based on a given design. The home page boasts a user-friendly and organized layout, completed with links to various sections of the website."
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "name": "Guess the number",
+    "type": "practice",
+    "tech": "JS",
+    "languages": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "grupal": false,
+    "visible": true,
+    "repoUrl": "https://github.com/LaiaRuizM/guess-the-number",
+    "webUrl": "https://laiaruizm.github.io/guess-the-number/",
+    "img": "https://i.postimg.cc/HxRJ5SP5/guess-the-number.png",
+    "descriptionEn": "Guessing website game which consists in generating a random number where the user has to try to guess it supported by some clues while the user is playing."
+  },
+  {
+    "id": 4,
+    "priority": 3,
+    "name": "Create profile Cards",
+    "type": "practice",
+    "tech": "JS",
+    "languages": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "JavaScript"
+    ],
+    "grupal": true,
+    "visible": true,
+    "repoUrl": "https://github.com/LaiaRuizM/create-cards",
+    "webUrl": "https://laiaruizm.github.io/create-cards/",
+    "img": "https://i.postimg.cc/76VsZ2Bp/create-cards.png",
+    "descriptionEn": "Project to create a virtual card. Website developed by a team of Adalab's students as part of its module 2, which presents a platform with interactive features to create your own business cards and share them."
+  },
+  {
+    "id": 5,
+    "priority": 3,
+    "name": "Cocktail finder",
+    "type": "practice",
+    "tech": "ReactJS",
+    "languages": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "JavaScript",
+      "ReactJS"
+    ],
+    "grupal": false,
+    "visible": true,
+    "repoUrl": "https://github.com/LaiaRuizM/cocktail-finder",
+    "webUrl": "https://laiaruizm.github.io/cocktail-finder/",
+    "img": "https://i.postimg.cc/FF0c3vNH/cocktail-finder.png",
+    "descriptionEn":"Cocktail's website which consists in search and iflter in a cocktail's list and add or remover your favorite drink."
+  },
+  {
+    "id": 6,
+    "priority": 3,
+    "name": "Friend's quotes",
+    "type": "practice",
+    "tech": "ReactJS",
+    "languages": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "JavaScript",
+      "ReactJS"
+    ],
+    "grupal": false,
+    "visible": true,
+    "repoUrl": "https://github.com/LaiaRuizM/friends-quotes",
+    "webUrl": "https://laiaruizm.github.io/friends-quotes/",
+    "img": "https://i.postimg.cc/TwB34KxW/friends-quotes.png",
+    "descriptionEn":"Website which has Friend's quotes which you can filter by character or by sentence. In addition, users can add new phrases and its characters."
+  },
+  {
+    "id": 7,
+    "priority": 3,
+    "name": "Harry Potter",
+    "type": "practice",
+    "tech": "ReactJS",
+    "languages": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "JavaScript",
+      "ReactJS"
+    ],
+    "grupal": false,
+    "visible": true,
+    "repoUrl": "https://github.com/LaiaRuizM/harry-potter",
+    "webUrl": "https://laiaruizm.github.io/harry-potter/",
+    "img": "https://i.postimg.cc/qq0vT9tk/harry-potter.png",
+    "descriptionEn":"Wesite to search for Harry Potter characters. Users can filter according to different criteria. Furthermore, users can take a look in the details page of each character."
+  },
+  {
+    "id": 8,
+    "priority": 3,
+    "name": "Create project cards - server | Proyectos y ya estaría",
+    "type": "practice",
+    "tech": "reactJs",
+    "languages": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "React.JS",
+      "NodeJS",
+      "ExpressJS",
+      "MySQL Workbench"
+    ],
+    "grupal": true,
+    "visible": true,
+    "repoUrl": "https://github.com/LaiaRuizM/create-project-cards",
+    "webUrl": "https://proyectos-y-ya-estaria.onrender.com/",
+    "img": "https://i.postimg.cc/ydJSqdGw/proyectos-y-ya-estaria.png",
+    "descriptionEn":"This project is design for the creation of business cards for each project and its authors. The cards is created digitally and can be shared through a link generated automatically by our website. gives its users the opportunity to present their projects, share information about them and advertise them to a wide audience. Full-stack project."
+  },
+  {
+    "id": 9,
+    "priority": 3,
+    "name": "Amazon's minimalist website",
+    "type": "personal project",
+    "tech": "ReactJS",
+    "languages": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "JavaScript",
+      "ReactJS"
+    ],
+    "grupal": false,
+    "visible": true,
+    "repoUrl": "https://github.com/LaiaRuizM/personal_project_AmznWeb",
+    "webUrl": "https://laiaruizm.github.io/personal_project_AmznWeb/",
+    "img": "https://i.postimg.cc/PJThvYQh/Amazon-s-minimalist-website.png",
+    "descriptionEn": "Presentation project: https://prezi.com/p/edit/s4cj6giaipks/ In this project I have created a web page to search for Amazon products. When the page loads, a list appears with products. This offers the possibility of display the different available products, sorting them alphabetically, filtering by category, by name. When the user clicks on one of them (on one product, pressing 'Details'), users can see a new page with details about the product which has been clicked on and share it."
+  },
+  {
+    "id": 10,
+    "priority": 3,
+    "name": "Portfolio",
+    "type": "personal project",
+    "tech": "ReactJS",
+    "languages": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "ReactJS"
+    ],
+    "grupal": false,
+    "visible": true,
+    "repoUrl": "https://github.com/LaiaRuizM/portfolio",
+    "webUrl": "https://laiaruizm.github.io/portfolio/",
+    "img": "https://i.postimg.cc/R0BSfkRw/portfolio.png",
+    "descriptionEn":"Personal project with information and data related to all the projects."
+  }
+]
