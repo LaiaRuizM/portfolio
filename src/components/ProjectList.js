@@ -10,7 +10,7 @@ const ProjectList = ({ projectListData }) => {
         repoUrl={eachProject.repoUrl}
         webUrl={eachProject.webUrl}
         description={eachProject.descriptionEn}
-        img={eachProject.img === "" ? defaultImage : eachProject.img}
+        image={eachProject.image === "" ? defaultImage : eachProject.image}
         languages={eachProject.languages}
       />
     );
