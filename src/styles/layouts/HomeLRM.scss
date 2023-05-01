@@ -1,10 +1,17 @@
 .home {
-    height: 100vh;
+    height: 90.5vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(to right, rgba(72, 70, 70, 0), rgb(86, 197, 177));
+    background: linear-gradient(to right, rgba(72, 70, 70, 0.1), rgb(86, 197, 177));
+    @media all and (min-width: 768px) {
+        height: 95.6vh;
+    }
+    @media all and (min-width: 1024px) {
+        //margin-right: 50%;
+        height: 93.2vh;
+    }
     &--div {
         margin-right: 50%;
         @media all and (min-width: 768px) {
