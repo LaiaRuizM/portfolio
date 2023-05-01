@@ -16,9 +16,14 @@ const ProjectList = ({ projectListData }) => {
     );
   });
   return (
-    <div className="projects">
-      <ul className="projects--list">{dataHtml}</ul>
-    </div>
+    <>
+      <section className="sectionProjects">
+        <h1 className="sectionProjects--h1">02. Project</h1>
+      </section>
+      <div className="projects">
+        <ul className="projects--list">{dataHtml}</ul>
+      </div>
+    </>
   );
 };
 

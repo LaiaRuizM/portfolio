@@ -2,8 +2,9 @@ import { Route, Routes } from "react-router-dom";
 import Header from "./Header";
 import HomeLRM from "./HomeLRM";
 import AboutMe from "./AboutMe";
-import projectListData from "../data/projects.json";
 import ProjectList from "./ProjectList";
+import projectListData from "../data/projects.json";
+import Contact from "./Contact";
 import "../styles/App.scss";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             path="/projects"
             element={<ProjectList projectListData={projectListData} />}
           />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
     </div>

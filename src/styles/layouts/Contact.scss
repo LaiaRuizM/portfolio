@@ -1,0 +1,71 @@
+.contact {
+    font-family: 'Indie Flower', cursive;
+    height: 90.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, rgba(72, 70, 70, 0.1), rgb(86, 197, 177));
+    @media all and (min-width: 768px) {
+        height: 95.6vh;
+    }
+    @media all and (min-width: 1024px) {
+        height: 93.2vh;
+    }
+    &--h1 {
+        border: 5px solid red;
+        // color: rgba(72, 70, 70, 0.9);
+        color: red;
+        padding: 5px 10px 5px 10px;
+        @media all and (min-width: 768px) {
+            padding: 10px 20px 10px 20px;
+            font-size: 28px;
+        }
+    }
+    &--div {
+        margin-right: 50%;
+        @media all and (min-width: 768px) {
+            margin-right: 230px;
+            margin-bottom: 215px;
+        }
+        @media all and (min-width: 1024px) {
+            margin-right: 90%;
+        }
+        &__img {
+            width: 100%;
+            height: auto;
+            margin-left: 50%;
+            padding-bottom: 70px;
+
+            @media all and (min-width: 768px) {
+                display: block;
+            }
+            @media all and (min-width: 1024px) {
+                margin-top: 50%;
+                width: auto;
+                height: 65vh;
+            }
+        }
+    }
+    &--article {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-bottom: 60px;
+        text-decoration: none;
+        @media all and (min-width: 768px) {
+            position: absolute;
+        }
+        @media all and (min-width: 1024px) {
+            position: absolute;
+        }
+    }
+    &--link{
+        text-decoration: none;
+    }
+}
+
+
+.icon{
+    margin-right: 10px;
+}
