@@ -1,3 +1,4 @@
+import "../styles/layouts/ProjectItem.scss";
 const ProjectItem = ({
   name,
   repoUrl,
@@ -7,21 +8,26 @@ const ProjectItem = ({
   languages,
 }) => {
   return (
-    <article>
-      <div>
+    <article className="projects--item">
+      <div className="projects--item__visible">
         <div>
-          <img src={image} alt={name} />
+          <img
+            src={image}
+            alt={name}
+            className="projects--item__visible__img"
+          />
         </div>
       </div>
-      <div>
-        <h3>{name.toUpperCase()}</h3>
-        <p>{description}</p>
-        <div>
+      <div className="projects--item__hidden">
+        <h3 className="projects--item__hidden__h3">{name.toUpperCase()}</h3>
+        <p className="projects--item__hidden__p">{description}</p>
+        <div className="projects--item__hidden__div">
           <a
             href={repoUrl}
             target="_blank"
             rel="noreferrer"
             title={`${name} code`}
+            className="projects--item__hidden__div__a"
           >
             <i className="fa-brands fa-github"></i>
           </a>
@@ -30,11 +36,12 @@ const ProjectItem = ({
             target="_blank"
             rel="noreferrer"
             title={`${name} website`}
+            className="projects--item__hidden__div__a"
           >
-            <i class="fa-solid fa-display"></i>
+            <i className="fa-solid fa-display"></i>
           </a>
         </div>
-        <span>{languages.join(" . ")}</span>
+        <span className="projects--span">{languages.join(" . ")}</span>
       </div>
     </article>
   );

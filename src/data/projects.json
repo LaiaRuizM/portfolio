@@ -130,7 +130,7 @@
     "repoUrl": "https://github.com/LaiaRuizM/harry-potter",
     "webUrl": "https://laiaruizm.github.io/harry-potter/",
     "image": "https://i.postimg.cc/qq0vT9tk/harry-potter.png",
-    "descriptionEn":"Wesite to search for Harry Potter characters. Users can filter according to different criteria. Furthermore, users can take a look in the details page of each character."
+    "descriptionEn":"Website to search for Harry Potter characters. Users can filter according to different criteria. Furthermore, users can take a look in the details page of each character."
   },
   {
     "id": 8,
@@ -152,7 +152,8 @@
     "repoUrl": "https://github.com/LaiaRuizM/create-project-cards",
     "webUrl": "https://proyectos-y-ya-estaria.onrender.com/",
     "image": "https://i.postimg.cc/ydJSqdGw/proyectos-y-ya-estaria.png",
-    "descriptionEn":"This project is design for the creation of business cards for each project and its authors. The cards is created digitally and can be shared through a link generated automatically by our website. gives its users the opportunity to present their projects, share information about them and advertise them to a wide audience. Full-stack project."
+    "descriptionEn":"This project is design for the creation of business cards for each project and its authors. The cards is created digitally and can be shared.", 
+    "AdditionalDescription": "Can be shared through a link generated automatically by our website.This gives the users the opportunity to present their projects, share information about them and advertise them to a wide audience. Full-stack project."
   },
   {
     "id": 9,
@@ -172,7 +173,7 @@
     "repoUrl": "https://github.com/LaiaRuizM/personal_project_AmznWeb",
     "webUrl": "https://laiaruizm.github.io/personal_project_AmznWeb/",
     "image": "https://i.postimg.cc/PJThvYQh/Amazon-s-minimalist-website.png",
-    "descriptionEn": "Presentation project: https://prezi.com/p/edit/s4cj6giaipks/ In this project I have created a web page to search for Amazon products. When the page loads, a list appears with products. This offers the possibility of display the different available products, sorting them alphabetically, filtering by category, by name. When the user clicks on one of them (on one product, pressing 'Details'), users can see a new page with details about the product which has been clicked on and share it."
+    "descriptionEn": "Website to search for Amazon's products. It offers the possibility of display the different available products, sorting them alphabetically, filtering by category and name.", "AdditionalDescription": "When the user clicks on one of them (on one product, pressing 'Details'), users can see a new page with details about the product which has been clicked on and share it."
   },
   {
     "id": 10,
