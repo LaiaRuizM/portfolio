@@ -1,6 +1,7 @@
 import About from "../images/aboutMeImg.png";
 import Curriculum from "../docs/Curriculum_LaiaRuizMartinez.pdf";
 import CoverLetter from "../docs/CoverLetter_LaiaRuizMartinez.pdf";
+import "../styles/layouts/AboutMe.scss";
 const AboutMe = () => {
   return (
     <>
@@ -16,9 +17,9 @@ const AboutMe = () => {
         </div>
       </section>
       <article className="articleAbout">
+        <p className="articleAbout--pAcc">Accountant turned programmer.</p>
         <p className="articleAbout--p">
-          Accountant turned programmer. I’m a full-stack developer👩🏼‍💻 and an
-          ex-accountant.
+          I’m a full-stack developer👩🏼‍💻 and an ex-accountant.
         </p>
         <p className="articleAbout--p">
           Throughout my career, I have been team leader and I developed
@@ -40,24 +41,26 @@ const AboutMe = () => {
           moon». 🙋🏼‍♀️
         </p>
         <p className="articleAbout--p">Now is time to code. Let's push it!</p>
-        <a
-          className="articleAbout--a"
-          href={Curriculum}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span>Curriculum</span>
-          <i class="fa-regular fa-file-pdf"></i>
-        </a>
-        <a
-          className="articleAbout--a"
-          href={CoverLetter}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span>Cover Letter</span>
-          <i class="fa-regular fa-file-lines"></i>
-        </a>
+        <div className="articleAbout--div">
+          <a
+            className="articleAbout--a"
+            href={Curriculum}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="articleAbout--a__span">Curriculum </span>
+            <i class="fa-regular fa-file-pdf"></i>
+          </a>
+          <a
+            className="articleAbout--a"
+            href={CoverLetter}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="articleAbout--a__span">Cover Letter </span>
+            <i class="fa-regular fa-file-lines"></i>
+          </a>
+        </div>
       </article>
     </>
   );

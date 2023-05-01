@@ -6,7 +6,7 @@
         font-weight: 800;
         margin-left: 20px;
         @media all and (min-width: 768px) {
-            font-size: 14px;
+            font-size: 18px;
         }
     }
     &--nav {
@@ -35,93 +35,7 @@
         opacity: 0.6;
         padding-bottom: 5px;
         @media all and (min-width: 768px) {
-            font-size: 14px;
+            font-size: 18px;
         }
     }
 }
-
-// .active {
-//     border-bottom: 2px rgb(241, 241, 240) solid;
-//     opacity: 1;
-// }
-
-// .header {
-//     display: flex;
-//     flex-direction: column;
-//     //align-items: flex-start;
-//     width: 100%;
-//     padding-top: 15px;
-//     padding-left: 15px;
-//     background: linear-gradient(to right, rgb(236, 236, 229), #000000);
-//     &__img {
-//         width: 8vw;
-//         &:hover {
-//             -webkit-transform: rotateY(180deg);
-//             -webkit-transform-style: preserve-3d;
-//             transform: rotateY(180deg);
-//             transform-style: preserve-3d;
-//         }
-//     }
-//     &__text{
-//         font-family: 'Indie Flower', cursive;
-//         font-weight: 900;
-//         font-size: 20px;
-//         font-style: italic;
-//         text-align: center;
-//         &:hover {
-//             background: linear-gradient(to left, #b47dcd, #e878a2, #eb85ab, #00ffff, #ffc800);
-//         }
-//     }
-// }
-// .nav {
-//     padding: 10px;
-//     padding-top: 1px;
-//     background: linear-gradient(to right, rgb(236, 236, 229), #000000);
-//     &__listsHeader {
-//         display: flex;
-//         flex-direction: row;
-//         justify-content: space-around;
-//         font-family: 'Indie Flower', cursive;
-//     }
-//     &__link {
-//         text-decoration: none;
-//         opacity: 1;
-//         color: #ffffff;
-//     }
-// }
-// @media (min-width: 768px) {
-//     .header {
-//         // padding-left: 30px;
-//         &__img {
-//             width: 6vw;
-//         }
-//         &__text {
-//             font-size: 24px;
-//         }
-//     }
-// }
-// @media (min-width: 768px) {
-//     .nav {
-//         &__listsHeader {
-//             font-size: 20px;
-//         }
-//     }
-// }
-// @media (min-width: 1024px) {
-//     .header {
-//         padding-left: 50px;
-//         &__img {
-//             width: 4vw;
-//         }
-//         &__text {
-//             font-size: 28px;
-//         }
-//     }
-// }
-// @media (min-width: 1024px) {
-//     .nav {
-//         &__lists {
-//             font-size: 24px;
-//         }
-//     }
-// }
