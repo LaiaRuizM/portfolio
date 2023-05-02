@@ -38,4 +38,13 @@
             font-size: 18px;
         }
     }
+    .fa-house{
+        color: rgb(86, 197, 177);
+    }
 }
+.active {
+        border-bottom: 2px rgb(86, 197, 177)solid;
+        opacity: 1;
+        color: rgb(255, 255, 255);
+    }
+

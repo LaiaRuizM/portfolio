@@ -1,30 +1,39 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../styles/layouts/Header.scss";
 
 const Header = () => {
   return (
     <header className="header">
       <nav className="header--nav">
-        <Link to={"/"} className="header--link">
+        <NavLink
+          to={"/"}
+          className={({ isActive, isPending }) =>
+            isPending
+              ? "pending header--link"
+              : isActive
+              ? "active header--link"
+              : "header--link"
+          }
+        >
           <h1 className="header--title">
             LRM <i class="fa-solid fa-house"></i>
           </h1>
-        </Link>
+        </NavLink>
         <ul className="header--nav__ul">
           <li>
-            <Link to={"/aboutme"} className="header--link">
+            <NavLink to={"/aboutme"} className="header--link">
               01. About me
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to={"/projects"} className="header--link">
+            <NavLink to={"/projects"} className="header--link">
               02. Projects
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to={"/contact"} className="header--link">
+            <NavLink to={"/contact"} className="header--link">
               03. Contact
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>
