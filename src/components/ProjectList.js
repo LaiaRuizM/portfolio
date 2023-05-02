@@ -18,7 +18,7 @@ const ProjectList = ({ projectListData }) => {
   return (
     <>
       <section className="sectionProjects">
-        <h1 className="sectionProjects--h1">02. Project</h1>
+        <h1 className="sectionProjects--h1">02. Projects</h1>
       </section>
       <div className="projects">
         <ul className="projects--list">{dataHtml}</ul>
