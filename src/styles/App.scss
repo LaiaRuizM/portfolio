@@ -1,15 +1,27 @@
 @import "./core/reset";
 
-html {
-    border: 6px solid;
-    max-width: 100%;
-    scroll-behavior: smooth;
+
+.App {
+    box-sizing: border-box;
+    min-height: 100vh;
+    border: 6px solid ;
+    // max-width: 100%;
+    // scroll-behavior: smooth;
     border-image-slice: 1;
-    border-image-source: linear-gradient(90deg, rgb(86, 197, 177), rgba(109, 106, 106, 0.5) 20%);
-    @media all and (min-width: 768px) {
-        height: 100vh;
-    }
-    @media all and (min-width: 1024px) {
-        height: 100vh;
-    }
+    // min-height: 100%;
+    border-image-source: linear-gradient(90deg, rgb(86, 197, 177), rgba(109, 106, 106, 0.6) 70%);
+    // @media all and (min-width: 768px) {
+    //     height: 100vh;
+    // }
+    // @media all and (min-width: 1024px) {
+    //     height: 100vh;
+    // }
+
+
+
+// body {
+//     box-sizing: border-box;
+//     min-height: 100vh;
+//     border: 6px solid;
+// }
 }

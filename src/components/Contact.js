@@ -33,13 +33,7 @@ const Contact = () => {
         >
           <i className="fa-brands fa-linkedin icon"></i> Laia Ruiz Martínez
         </a>
-        <a
-          href="https://linkedin.com/in/laia-ruiz-martínez"
-          target="_blank"
-          title="Linkedin de Laia Ruiz Martínez"
-          rel="noopener noreferrer"
-          className="contact--link"
-        >
+        <a href="mailto:laia.ruizm@hotmail.com" className="contact--link">
           <i className="fa-solid fa-envelope icon"></i> laia.ruizm@hotmail.com
         </a>
         <p className="contact--text">

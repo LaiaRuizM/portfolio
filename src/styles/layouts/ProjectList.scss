@@ -14,9 +14,9 @@
         min-height: 80vh;
         width: 100%;
     &--list{
-        max-height: calc(100vh - 132px);
+        // max-height: calc(100vh - 132px);
         padding: 50px;
-        margin-top: 132px;
+        //margin-top: 132px;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(220px, 250px));
         grid-template-columns: 1fr;
