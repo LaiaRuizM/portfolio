@@ -1,27 +1,28 @@
-.contact {
-    font-family: 'Indie Flower', cursive;
+.sectionContact {
+    background-color: black;
     height: 90.5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    font-family: 'Indie Flower', cursive;
     background: linear-gradient(to right, rgba(72, 70, 70, 0.1), rgb(86, 197, 177));
     @media all and (min-width: 768px) {
-        height: 95.6vh;
+        height: 95.4vh;
     }
     @media all and (min-width: 1024px) {
-        height: 93.2vh;
+        height: auto;
     }
     &--h1 {
-        border: 5px solid red;
-        // color: rgba(72, 70, 70, 0.9);
-        color: red;
+        color: rgb(86, 197, 177);
         padding: 5px 10px 5px 10px;
+                    // text-shadow: 5px 5px 5px rgb(153, 151, 151);
         @media all and (min-width: 768px) {
             padding: 10px 20px 10px 20px;
             font-size: 28px;
         }
     }
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     &--div {
         margin-right: 50%;
         @media all and (min-width: 768px) {
@@ -29,49 +30,67 @@
             margin-bottom: 215px;
         }
         @media all and (min-width: 1024px) {
-            margin-right: 90%;
+            margin-right: 95%;
         }
         &__img {
             width: 100%;
             height: auto;
             margin-left: 50%;
-            padding-bottom: 70px;
-
+            margin-top: 50px;
+            padding-bottom: 60px;
             @media all and (min-width: 768px) {
                 display: block;
             }
             @media all and (min-width: 1024px) {
-                margin-top: 50%;
                 width: auto;
-                height: 65vh;
+                // height: 65vh;
             }
         }
     }
     &--article {
         display: flex;
         flex-direction: column;
-        align-items: start;
-        padding-bottom: 60px;
         text-decoration: none;
+        align-items: center;
         @media all and (min-width: 768px) {
             position: absolute;
+            align-items: end;
+            padding-right: 440px;
+            font-size: 22px;
         }
         @media all and (min-width: 1024px) {
-            position: absolute;
+            align-items: start;
+            padding-left: 430px;
+            font-size: 25px;
         }
     }
     &--link{
         text-decoration: none;
         color: black;
+        @media all and (min-width: 768px) {
+            padding-right: 60px;
+            margin-top: 20px;
+        }
+        @media all and (min-width: 1024px) {
+            padding-left: 70px;
+            margin-top: 10px;
+        }
     }
     &--text{
-        margin-top: 15px;
-        border: 5px solid red;
+        margin-top: 40px;
+        font-style: italic;
+        @media all and (min-width: 768px) {
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+        @media all and (min-width: 768px) {
+            margin-bottom: 200px;
+        }
     }
 }
-
+}
 
 .icon{
     margin-right: 5px;
-    border: 5px solid red;
+    color: rgb(94, 91, 91);
 }
