@@ -19,18 +19,18 @@ If you want to see the project: https://laiaruizm.github.io/portfolio/
 
 ## -- Table of contents --
 
-- [Overview](#overview)
+- [-- Overview --](#overview)
   - [Links](#links)
   - [Further implementations](#further-implementations)
-- [Project's process](#project's-process)
+- [-- Project's process --](#project's-process)
   <!-- - [Organization](#organization) -->
   - [Built with](#built-with-|-programming-languages-&-tools-🛠️)
   - [Setup for getting started](#setup-for-getting-started)
-  <!-- - [Challenges I have faced 🤖](#challenges-I-have-faced-🤖) -->
-- [Author](#author)
-- [Additional information for the setup](#additional-information-for-the-setup)
+  - [Challenges I have faced 🤖](#challenges-I-have-faced-🤖)
+- [-- Author --](#author)
+- [--Additional information for the setup--](#additional-information)
 
-## -- Overview --
+## Overview
 
 ### Links
 
@@ -42,12 +42,19 @@ If you want to see the project: https://laiaruizm.github.io/portfolio/
 - I will add a button to toggle the portfolio in Dark or Light mode.
 - Also, I amb going to put a buttom with the translation in English and Spanish.
 
-## -- Project's process --
+## Project's process
 
-<!-- ### Organization
+### Organization
 
-1. Design's project
-2. Component -->
+1. Design the prototype project, estimate time and create a basics Readme
+2. Write down the main components and its styles: Home, Header, AboutMe
+3. Structure and create the JSON which all the projects
+4. Create ProjectList and ProjectItem components and its styles
+5. Create Contact's component
+6. Update styles
+7. Fix errors and problems
+8. Think about future implementations
+9. Update Readme
 
 ### Built with | programming languages & tools 🛠️
 
@@ -79,9 +86,11 @@ npm install
 npm start
 ```
 
-<!-- ### Challenges I have faced 🤖 -->
+### Challenges I have faced 🤖
 
-## -- Author --
+- The border of the website on the Projects section was in the middle of the page and not until the end with all the view height. To be able to see the problem I simplified the code, after seeing that the problem was in the App component I started to comment each component and after realized in which component I had the problem (ProjectList), I reviewed the code and changed the style which was making the height's problem.
+
+## Author
 
 💡 If you want to contact me for any suggestion, doubts, contributions, PullRequest:
 
@@ -89,10 +98,10 @@ npm start
 - Linkedin: [https://www.linkedin.com/in/laia-ruiz-martínez/](https://www.linkedin.com/in/laia-ruiz-martínez/)
 - GitHub: [https://github.com/LaiaRuizM](https://github.com/LaiaRuizM)
 
-- «All you need is attitude. Aim for the stars so that if you miss, you will still get to the moon». 🙋🏼‍♀️
-- ⌨️ Made with ❤️ by [Laia](https://github.com/LaiaRuizM)
+«All you need is attitude. Aim for the stars so that if you miss, you will still get to the moon». 🙋🏼‍♀️
+Made with 💙 by [Laia](https://github.com/LaiaRuizM)
 
-## -- Additional information for the setup --
+## Additional information for the setup
 
 ### What can I find in this exercise?
 
