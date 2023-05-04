@@ -101,7 +101,7 @@ npm start
 «All you need is attitude. Aim for the stars so that if you miss, you will still get to the moon». 🙋🏼‍♀️
 Made with 💙 by [Laia](https://github.com/LaiaRuizM)
 
-## Additional information for the setup
+## Additional information
 
 ### What can I find in this exercise?
 
