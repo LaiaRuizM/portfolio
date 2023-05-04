@@ -90,7 +90,7 @@ npm start
 - GitHub: [https://github.com/LaiaRuizM](https://github.com/LaiaRuizM)
 
 - «All you need is attitude. Aim for the stars so that if you miss, you will still get to the moon». 🙋🏼‍♀️
-- ⌨️ Made with ❤️ by [Laia](https://github.com/LaiaRuizM)
+- ⌨️ Made with ♡ by [Laia](https://github.com/LaiaRuizM)
 
 ## -- Additional information for the setup --
 
