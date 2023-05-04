@@ -22,11 +22,11 @@ If you want to see the project: https://laiaruizm.github.io/portfolio/
 - [-- Overview --](#overview)
   - [Links](#links)
   - [Further implementations](#further-implementations)
-- [-- Project's process --](#project's-process)
-  <!-- - [Organization](#organization) -->
-  - [Built with](#built-with-|-programming-languages-&-tools-🛠️)
-  - [Setup for getting started](#setup-for-getting-started)
-  - [Challenges I have faced 🤖](#challenges-I-have-faced-🤖)
+- [-- Project's process --](#projects-process)
+  - [Organization](#organization)
+  - [Built with programming languages & tools 🛠️](#built-with)
+  - [Setup for getting started](#setup)
+  - [Challenges I have faced 🤖](#challenges)
 - [-- Author --](#author)
 - [--Additional information for the setup--](#additional-information)
 
@@ -56,7 +56,7 @@ If you want to see the project: https://laiaruizm.github.io/portfolio/
 8. Think about future implementations
 9. Update Readme
 
-### Built with | programming languages & tools 🛠️
+### Built with
 
 1. HTML 📌
 1. SCSS / SASS 🔗
@@ -86,7 +86,7 @@ npm install
 npm start
 ```
 
-### Challenges I have faced 🤖
+### Challenges
 
 - The border of the website on the Projects section was in the middle of the page and not until the end with all the view height. To be able to see the problem I simplified the code, after seeing that the problem was in the App component I started to comment each component and after realized in which component I had the problem (ProjectList), I reviewed the code and changed the style which was making the height's problem.
 
