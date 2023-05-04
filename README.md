@@ -39,8 +39,8 @@ If you want to see the project: https://laiaruizm.github.io/portfolio/
 
 ### Further implementations
 
-- I will add a button to toggle the portfolio in Dark or Light mode.
-- Also, I amb going to put a buttom with the translation in English and Spanish.
+- Adding a button to toggle the portfolio in Dark or Light mode.
+- Adding a buttom with the translation in English and Spanish.
 
 ## Project's process
 
@@ -99,6 +99,7 @@ npm start
 - GitHub: [https://github.com/LaiaRuizM](https://github.com/LaiaRuizM)
 
 «All you need is attitude. Aim for the stars so that if you miss, you will still get to the moon». 🙋🏼‍♀️
+
 Made with 💙 by [Laia](https://github.com/LaiaRuizM)
 
 ## Additional information
