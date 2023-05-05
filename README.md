@@ -92,7 +92,7 @@ npm start
 
 ## Author
 
-💡 If you want to contact me for any suggestion, doubts, contributions, PullRequest:
+💡 If you want to contact me for any suggestion, doubts, contributions, Pull Request. Feel free to ask me if you have any question or curiosity:
 
 - Email: [laia.ruizm@hotmail.com](laia.ruizm@hotmail.com)
 - Linkedin: [https://www.linkedin.com/in/laia-ruiz-martínez/](https://www.linkedin.com/in/laia-ruiz-martínez/)
