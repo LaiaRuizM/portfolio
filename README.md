@@ -19,16 +19,16 @@ If you want to see the project: https://laiaruizm.github.io/portfolio/
 
 ## -- Table of contents --
 
-- [-- Overview --](#overview)
+- [Overview](#overview)
   - [Links](#links)
   - [Further implementations](#further-implementations)
-- [-- Project's process --](#projects-process)
+- [Project's process](#projects-process)
   - [Organization](#organization)
   - [Built with programming languages & tools 🛠️](#built-with)
   - [Setup for getting started](#setup)
   - [Challenges I have faced 🤖](#challenges)
-- [-- Author --](#author)
-- [--Additional information for the setup--](#additional-information)
+- [Author](#author)
+- [Additional information for the setup](#additional-information)
 
 ## Overview
 
