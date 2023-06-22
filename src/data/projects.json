@@ -5,11 +5,7 @@
     "name": "We run",
     "type": "practice",
     "tech": "CSS",
-    "languages": [
-      "HTML",
-      "CSS",
-      "SASS"
-    ],
+    "languages": ["HTML", "CSS", "SASS"],
     "grupal": false,
     "visible": true,
     "repoUrl": "https://github.com/LaiaRuizM/we-run-given-design",
@@ -23,11 +19,7 @@
     "name": "Desarrollalobas",
     "type": "practice",
     "tech": "CSS",
-    "languages": [
-      "HTML",
-      "CSS",
-      "SASS"
-    ],
+    "languages": ["HTML", "CSS", "SASS"],
     "grupal": true,
     "visible": true,
     "repoUrl": "https://github.com/LaiaRuizM/desarrollalobas-project",
@@ -41,11 +33,7 @@
     "name": "Guess the number",
     "type": "practice",
     "tech": "JS",
-    "languages": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
+    "languages": ["HTML", "CSS", "JavaScript"],
     "grupal": false,
     "visible": true,
     "repoUrl": "https://github.com/LaiaRuizM/guess-the-number",
@@ -59,12 +47,7 @@
     "name": "Create profile Cards",
     "type": "practice",
     "tech": "JS",
-    "languages": [
-      "HTML",
-      "CSS",
-      "SASS",
-      "JavaScript"
-    ],
+    "languages": ["HTML", "CSS", "SASS", "JavaScript"],
     "grupal": true,
     "visible": true,
     "repoUrl": "https://github.com/LaiaRuizM/create-cards",
@@ -78,19 +61,13 @@
     "name": "Cocktail finder",
     "type": "practice",
     "tech": "ReactJS",
-    "languages": [
-      "HTML",
-      "CSS",
-      "SASS",
-      "JavaScript",
-      "ReactJS"
-    ],
+    "languages": ["HTML", "CSS", "SASS", "JavaScript", "ReactJS"],
     "grupal": false,
     "visible": true,
     "repoUrl": "https://github.com/LaiaRuizM/cocktail-finder",
     "webUrl": "https://laiaruizm.github.io/cocktail-finder/",
     "image": "https://i.postimg.cc/FF0c3vNH/cocktail-finder.png",
-    "descriptionEn":"Cocktail's website which consists in search and iflter in a cocktail's list and add or remover your favorite drink."
+    "descriptionEn": "Cocktail's website which consists in search and iflter in a cocktail's list and add or remover your favorite drink."
   },
   {
     "id": 6,
@@ -98,19 +75,13 @@
     "name": "Friend's quotes",
     "type": "practice",
     "tech": "ReactJS",
-    "languages": [
-      "HTML",
-      "CSS",
-      "SASS",
-      "JavaScript",
-      "ReactJS"
-    ],
+    "languages": ["HTML", "CSS", "SASS", "JavaScript", "ReactJS"],
     "grupal": false,
     "visible": true,
     "repoUrl": "https://github.com/LaiaRuizM/friends-quotes",
     "webUrl": "https://laiaruizm.github.io/friends-quotes/",
     "image": "https://i.postimg.cc/TwB34KxW/friends-quotes.png",
-    "descriptionEn":"Website which has Friend's quotes which you can filter by character or by sentence. In addition, users can add new phrases and its characters."
+    "descriptionEn": "Website which has Friend's quotes which you can filter by character or by sentence. In addition, users can add new phrases and its characters."
   },
   {
     "id": 7,
@@ -118,19 +89,13 @@
     "name": "Harry Potter",
     "type": "practice",
     "tech": "ReactJS",
-    "languages": [
-      "HTML",
-      "CSS",
-      "SASS",
-      "JavaScript",
-      "ReactJS"
-    ],
+    "languages": ["HTML", "CSS", "SASS", "JavaScript", "ReactJS"],
     "grupal": false,
     "visible": true,
     "repoUrl": "https://github.com/LaiaRuizM/harry-potter",
     "webUrl": "https://laiaruizm.github.io/harry-potter/",
     "image": "https://i.postimg.cc/qq0vT9tk/harry-potter.png",
-    "descriptionEn":"Website to search for Harry Potter characters. Users can filter according to different criteria. Furthermore, users can take a look in the details page of each character."
+    "descriptionEn": "Website to search for Harry Potter characters. Users can filter according to different criteria. Furthermore, users can take a look in the details page of each character."
   },
   {
     "id": 8,
@@ -152,7 +117,7 @@
     "repoUrl": "https://github.com/LaiaRuizM/create-project-cards",
     "webUrl": "https://proyectos-y-ya-estaria.onrender.com/",
     "image": "https://i.postimg.cc/ydJSqdGw/proyectos-y-ya-estaria.png",
-    "descriptionEn":"This project is design for the creation of business cards for each project and its authors. The cards is created digitally and can be shared.", 
+    "descriptionEn": "This project is design for the creation of business cards for each project and its authors. The cards is created digitally and can be shared.",
     "AdditionalDescription": "Can be shared through a link generated automatically by our website.This gives the users the opportunity to present their projects, share information about them and advertise them to a wide audience. Full-stack project."
   },
   {
@@ -161,37 +126,41 @@
     "name": "Amazon's minimalist website",
     "type": "personal project",
     "tech": "ReactJS",
-    "languages": [
-      "HTML",
-      "CSS",
-      "SASS",
-      "JavaScript",
-      "ReactJS"
-    ],
+    "languages": ["HTML", "CSS", "SASS", "JavaScript", "ReactJS"],
     "grupal": false,
     "visible": true,
     "repoUrl": "https://github.com/LaiaRuizM/personal_project_AmznWeb",
     "webUrl": "https://laiaruizm.github.io/personal_project_AmznWeb/",
     "image": "https://i.postimg.cc/PJThvYQh/Amazon-s-minimalist-website.png",
-    "descriptionEn": "Website to search for Amazon's products. It offers the possibility of display the different available products, sorting them alphabetically, filtering by category and name.", "AdditionalDescription": "When the user clicks on one of them (on one product, pressing 'Details'), users can see a new page with details about the product which has been clicked on and share it."
+    "descriptionEn": "Website to search for Amazon's products. It offers the possibility of display the different available products, sorting them alphabetically, filtering by category and name.",
+    "AdditionalDescription": "When the user clicks on one of them (on one product, pressing 'Details'), users can see a new page with details about the product which has been clicked on and share it."
   },
   {
     "id": 10,
     "priority": 3,
+    "name": "Create sticky notes",
+    "type": "personal project",
+    "tech": "ReactJS",
+    "languages": ["HTML", "CSS", "SASS", "ReactJS"],
+    "grupal": false,
+    "visible": true,
+    "repoUrl": "https://github.com/LaiaRuizM/create-notes",
+    "webUrl": "https://laiaruizm.github.io/create-notes/",
+    "image": "https://i.postimg.cc/mkBjjG8j/create-notes.png",
+    "descriptionEn": "Personal project which make you able to create sticky notes online to do your tasks, chores."
+  },
+  {
+    "id": 11,
+    "priority": 3,
     "name": "Portfolio",
     "type": "personal project",
     "tech": "ReactJS",
-    "languages": [
-      "HTML",
-      "CSS",
-      "SASS",
-      "ReactJS"
-    ],
+    "languages": ["HTML", "CSS", "SASS", "ReactJS"],
     "grupal": false,
     "visible": true,
     "repoUrl": "https://github.com/LaiaRuizM/portfolio",
     "webUrl": "https://laiaruizm.github.io/portfolio/",
     "image": "https://i.postimg.cc/R0BSfkRw/portfolio.png",
-    "descriptionEn":"Personal project with information and data related to all the projects."
+    "descriptionEn": "Personal project with information and data related to all the projects."
   }
 ]
