@@ -152,6 +152,20 @@
   {
     "id": 11,
     "priority": 3,
+    "name": "Sanz Clima's technical test",
+    "type": "Practical case with Next.JS version 13",
+    "tech": "NextJS",
+    "languages": ["HTML", "CSS", "SASS", "ReactJS", "NextJS"],
+    "grupal": false,
+    "visible": true,
+    "repoUrl": "https://github.com/LaiaRuizM/SanzClima-full-stack-test/tree/master/sanz-clima-next-js-13-app",
+    "webUrl": "",
+    "image": "https://i.postimg.cc/nL69pYmQ/nextJS.png",
+    "descriptionEn": "Personal project with information and data related to all the projects."
+  },
+  {
+    "id": 12,
+    "priority": 3,
     "name": "Portfolio",
     "type": "personal project",
     "tech": "ReactJS",
