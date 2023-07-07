@@ -1,10 +1,13 @@
 @import "./core/reset";
 
-
 .App {
-    box-sizing: border-box;
-    min-height: 100vh;
-    border: 6px solid ;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(90deg, rgb(86, 197, 177), rgba(109, 106, 106, 0.6) 70%);
+  box-sizing: border-box;
+  min-height: 100vh;
+  border: 6px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    90deg,
+    rgb(86, 197, 177),
+    rgba(109, 106, 106, 0.6) 70%
+  );
 }

@@ -1,100 +1,102 @@
 .home {
-    height: 90.5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background: linear-gradient(to right, rgba(72, 70, 70, 0.1), rgb(86, 197, 177));
+  height: 90.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(
+    to right,
+    rgba(72, 70, 70, 0.1),
+    rgb(86, 197, 177)
+  );
+  @media all and (min-width: 768px) {
+    height: 95.6vh;
+  }
+  @media all and (min-width: 1024px) {
+    height: 93.2vh;
+  }
+  &--div {
+    margin-right: 50%;
     @media all and (min-width: 768px) {
-        height: 95.6vh;
+      margin-right: 230px;
+      margin-bottom: 215px;
     }
     @media all and (min-width: 1024px) {
-        //margin-right: 50%;
-        height: 93.2vh;
+      margin-right: 90%;
     }
-    &--div {
-        margin-right: 50%;
-        @media all and (min-width: 768px) {
-            margin-right: 230px;
-            margin-bottom: 215px;
-        }
-        @media all and (min-width: 1024px) {
-            margin-right: 90%;
-        }
-    &__img{
-        width: 100%;
-        height: auto;
-        margin-left: 50%;
-        padding-bottom: 70px;
-            @media all and (min-width: 768px) {
-                display: block;
-            }
-            @media all and (min-width: 1024px) {
-                margin-top: 50%;
-                width: auto;
-                height: 65vh;
-            }
-        }
+    &__img {
+      width: 100%;
+      height: auto;
+      margin-left: 50%;
+      padding-bottom: 70px;
+      @media all and (min-width: 768px) {
+        display: block;
+      }
+      @media all and (min-width: 1024px) {
+        margin-top: 50%;
+        width: auto;
+        height: 65vh;
+      }
     }
-    &--article{
-        right: 300px;
-        margin-bottom: 50px;
-        padding-bottom: 60px;
-        @media all and (min-width: 768px) {
-            position: absolute;
-        }
-        &__greet{
-            font-size: 18px;
-            text-align: center;
-            margin-bottom: 15px;
-            @media all and (min-width: 768px) {
-                font-size: 28px;
-                text-align: start;
-                padding-top: 200px;
-                padding-left: 20px;
-            }
-            @media all and (min-width: 1024px) {
-                font-size: 20px;
-                text-align: start;
-                margin-bottom: 10px;
-                margin-left: 220px;
-            }
-        }
-        &__name{
-            font-size: 35px;
-            text-align: center;
-            margin-bottom: 15px;
-            color: rgb(176, 141, 141);
-            @media all and (min-width: 768px) {
-                font-size: 42px;
-                text-align: start;
-                padding-left: 130px;
-                font-style: italic;
-            }
-            @media all and (min-width: 1024px) {
-                font-style: normal;
-                font-size: 70px;
-                text-align: start;
-                padding-top: 10px;
-                margin-left: 50px;
-            }
-        }
-        &__career{
-            font-size: 24px;
-            text-align: center;
-            margin-top: 20px;
-            font-style: italic;
-            @media all and (min-width: 768px) {
-                font-size: 35px;
-                text-align: end;
-                font-style: normal;
-                padding-right: 80px;
-            }
-            @media all and (min-width: 1024px) {
-                font-size: 45px;
-                margin-bottom: 200px;
-            }
-        }
+  }
+  &--article {
+    right: 300px;
+    margin-bottom: 50px;
+    padding-bottom: 60px;
+    @media all and (min-width: 768px) {
+      position: absolute;
     }
+    &__greet {
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 15px;
+      @media all and (min-width: 768px) {
+        font-size: 28px;
+        text-align: start;
+        padding-top: 200px;
+        padding-left: 20px;
+      }
+      @media all and (min-width: 1024px) {
+        font-size: 20px;
+        text-align: start;
+        margin-bottom: 10px;
+        margin-left: 220px;
+      }
+    }
+    &__name {
+      font-size: 35px;
+      text-align: center;
+      margin-bottom: 15px;
+      color: rgb(176, 141, 141);
+      @media all and (min-width: 768px) {
+        font-size: 42px;
+        text-align: start;
+        padding-left: 130px;
+        font-style: italic;
+      }
+      @media all and (min-width: 1024px) {
+        font-style: normal;
+        font-size: 70px;
+        text-align: start;
+        padding-top: 10px;
+        margin-left: 50px;
+      }
+    }
+    &__career {
+      font-size: 24px;
+      text-align: center;
+      margin-top: 20px;
+      font-style: italic;
+      @media all and (min-width: 768px) {
+        font-size: 35px;
+        text-align: end;
+        font-style: normal;
+        padding-right: 80px;
+      }
+      @media all and (min-width: 1024px) {
+        font-size: 45px;
+        margin-bottom: 200px;
+      }
+    }
+  }
 }
-
