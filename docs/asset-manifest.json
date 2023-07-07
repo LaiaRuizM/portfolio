@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "./static/css/main.43c73e40.css",
-    "main.js": "./static/js/main.8826c24c.js",
+    "main.js": "./static/js/main.c3bbb0a2.js",
     "static/media/Curriculum_LaiaRuizMartinez.pdf": "./static/media/Curriculum_LaiaRuizMartinez.1e6e7551048833601a2c.pdf",
     "static/media/portfolioImgWithoutBckgr.png": "./static/media/portfolioImgWithoutBckgr.d69d7abdafcdc9699b3f.png",
     "static/media/portfolioImgWithBckgr.png": "./static/media/portfolioImgWithBckgr.bdd02c1212001982dd80.png",
     "static/media/aboutMeImg.png": "./static/media/aboutMeImg.8cd276496373e2724267.png",
     "index.html": "./index.html",
     "main.43c73e40.css.map": "./static/css/main.43c73e40.css.map",
-    "main.8826c24c.js.map": "./static/js/main.8826c24c.js.map"
+    "main.c3bbb0a2.js.map": "./static/js/main.c3bbb0a2.js.map"
   },
   "entrypoints": [
     "static/css/main.43c73e40.css",
-    "static/js/main.8826c24c.js"
+    "static/js/main.c3bbb0a2.js"
   ]
 }
